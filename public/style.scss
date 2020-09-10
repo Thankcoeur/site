@@ -1,0 +1,247 @@
+
+body {
+
+    background-color: #e7ece4;
+}
+.header {
+    color: #cbd5e0;
+
+text-align: center;
+background-color: #000d39;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+
+
+    &_title {
+
+        padding-top: 0px;
+        color: white;
+        font-size: 45px;
+    }
+
+
+}
+
+.container {
+
+    max-width: 900px;
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    padding: 0;
+    margin:0 ;
+
+    text-align: center;
+}
+
+.img-flex {
+width: 80%;
+    max-width: 400px;
+
+    box-shadow:  0px 0px 10px black;
+
+}
+
+.nav {
+
+    &_logo {
+
+
+        padding-top: 20px;
+    }
+
+    text-align: center;
+    &_title {
+        color: white;
+        font-size: 45px;
+
+        text-align: center;
+        box-sizing: content-box;
+    }
+}
+
+.whengo_container {
+
+
+}
+
+.yellow  {
+
+    color: #f7c21e;
+}
+
+.imagePresentation {
+
+
+    &_item {
+
+        @media screen and ( min-width: 900px) {
+
+            align-items: center;
+
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+
+
+
+    }
+
+
+.content {margin: auto;
+    font-size: 30px;
+
+    width: 80%;
+}
+h3 {
+
+font-size : 45px;
+
+
+}
+
+
+
+}
+
+.whyme {
+    margin-top: 50px;
+
+    background-color: #000d39;
+
+    color: white;
+    font-size: 30px;
+     text-justify: auto;
+    .content {
+
+        width: 70%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    h2 {
+
+        background-color: #f7c21e;
+        margin: auto;
+        background-color: #f7c21e;
+        color: white;
+        width: 250px;
+
+        font-size: 45px;
+    }
+}
+
+.whengo {
+&_container {
+
+
+
+    @media screen and ( min-width: 900px) {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+
+    };
+}
+
+h2 {
+
+    color: #f7c21e;
+    font-size: 45px;
+}
+
+    p {
+
+        width: 80%;
+        margin: auto;
+        font-size: 30px;
+    }
+
+    .maps {
+    width: 70%;
+        max-width: 300px;
+
+
+
+    }
+
+
+}
+
+.footer  {
+
+    background-color: #000d39;
+    color: white;
+}
+
+.anim1 {
+
+
+}
+
+ul {
+
+    list-style: none;
+    padding-left: 0px;
+
+    li {
+
+        text-align: center;
+    }
+    a {
+        margin: auto;
+        display: block;
+
+        text-decoration: none;
+        color:  white;
+
+        text-align: center;
+    }
+}
+
+.img-container {width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+.image-container_item {
+
+    width: 200px;
+
+    img {
+
+        width: 100%;
+    }
+
+
+
+
+}
+
+
+}
+
+.whenpaye {
+
+    margin-top: 100px;
+
+    @media screen and (min-width: 900px) {
+        margin-bottom: 50px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+
+}
+
